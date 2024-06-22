@@ -5,6 +5,13 @@
     text-decoration: none;
 }
 
+body {
+    background-color: #4b2e2e; 
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
 .buttons ul {
     border: 6px solid rgb(0, 0, 0);
     padding: 0;
@@ -78,4 +85,12 @@ button {
     box-shadow: 0em -0.2rem 0em #e2e273 inset;
     transition: color 3s ease-in-out;
 }
+
+button:hover {
+    background-color: transparent;
+    color: #8b4513;
+    border: 3px solid #e2e273;
+    cursor: pointer;
+}
+
 
