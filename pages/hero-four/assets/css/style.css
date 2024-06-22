@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons ul {
+    border: 6px solid rgb(0, 0, 0);
+    padding: 0;
+}
+
+.buttons li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.buttons li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 9px;
+    background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+    color: rgb(255, 215, 0);
+    transition: ease 0.4s;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 320px;
+    height: 310px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.card h5, .card p {
+    position: relative;
+    z-index: 2;
+}
+
+.card1 {
+    background-image: url('https://mlrhpz8jmuut.i.optimole.com/cb:Ie5o.50122/w:auto/h:auto/q:mauto/f:best/ig:avif/id:d1b60c7ded5b0193f3f62095330daa5f/https://www.egypttoursplus.com/White-Desert-Western-Desert-Egypt.jpg');
+}
+
+.card2 {
+    background-image: url('https://mlrhpz8jmuut.i.optimole.com/cb:Ie5o.50122/w:auto/h:auto/q:mauto/f:best/ig:avif/id:7c30dd6a50c40d1cc105e5ccd831525f/https://www.egypttoursplus.com/Cemetery-of-Al-Bagawat-Photo-by-Hannelore.jpg');
+}
+
+.card3 {
+    background-image: url('https://www.lecole.edu.pk/wp-content/uploads/2022/01/1.png');
+}
+
+.card4 {
+    background-image: url('https://d2g6byanrj0o4m.cloudfront.net/images/63242/kalahari_desert_scenery__banner.jpeg');
+}
+
+
