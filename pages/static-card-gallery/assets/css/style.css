@@ -33,7 +33,7 @@ ul li a:hover {
     transition: ease 0.4s;
 }
 
-.landing{
+.landing {
     width: 50%;
     height: auto;
     height: 250px;
@@ -44,8 +44,8 @@ ul li a:hover {
 }
 
 
-.hero-text{
-    background-color:  #D3D3D3;
+.hero-text {
+    background-color: #D3D3D3;
     padding: 20px;
     width: 50%;
     border-radius: 2%;
@@ -78,38 +78,42 @@ button {
     transition: color 3s ease-in-out;
 }
 
+button:hover {
+    transform: translateY(-5px);
+}
+
+
 #hero {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-      url("https://insanelygoodrecipes.com/wp-content/uploads/2020/02/Burger-and-Fries.jpg")
-        no-repeat center bottom / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)), url("https://insanelygoodrecipes.com/wp-content/uploads/2020/02/Burger-and-Fries.jpg") no-repeat center bottom / cover;
     color: whitesmoke;
-  }
-  
-  .b-container {
+}
+
+.b-container {
     width: 90%;
     height: 100%;
     max-width: 1200px;
     margin: auto;
     border: 3px solid rgb(0, 0, 0);
-  }
-  
-  #burgers .info h1 {
+}
+
+#burgers .info h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-  }
-  
-  #burgers .info h2 {
+}
+
+#burgers .info h2 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
-  }
-  #burgers .info p {
+}
+
+#burgers .info p {
     font-size: 1.2rem;
     max-width: 50%;
-  }
-  
-  #burgers .info a {
+}
+
+#burgers .info a {
     text-decoration: none;
     display: inline-block;
     background-color: white;
@@ -118,16 +122,17 @@ button {
     padding: 0.5em 2em;
     margin-top: 2rem;
     color: #ee6c09;
-  }
-  
-  .info-content {
+}
+
+.info-content {
     border-left: 2px solid #ee6c09;
     padding-left: 1rem;
-  }
+}
 
-  .col {
+.col {
     flex-basis: 50%;
 }
+
 .col button {
     width: 180px;
     color: #000;
@@ -175,3 +180,4 @@ button {
 .card1 {
     background-image: url('https://mlrhpz8jmuut.i.optimole.com/cb:Ie5o.50122/w:auto/h:auto/q:mauto/f:best/ig:avif/id:d1b60c7ded5b0193f3f62095330daa5f/https://www.egypttoursplus.com/White-Desert-Western-Desert-Egypt.jpg');
 }
+

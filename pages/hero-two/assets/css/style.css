@@ -86,11 +86,4 @@ button {
     transition: color 3s ease-in-out;
 }
 
-button:hover {
-    background-color: transparent;
-    color: #8b4513;
-    border: 3px solid #e2e273;
-    cursor: pointer;
-}
-
 
