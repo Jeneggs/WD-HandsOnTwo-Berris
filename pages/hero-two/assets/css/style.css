@@ -3,7 +3,6 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    z-index: 1;
 }
 
 .buttons ul {
@@ -34,26 +33,6 @@ ul li a:hover {
     transition: ease 0.4s;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 64px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-nav ul {
-    display: flex;
-    order: 2;
-}
-
-nav ul a {
-    color: #000000;
-    font-size: 1.6rem;
-    margin-left: 2rem;
-}
-
 .container {
     height: 600px;
     padding: 20px;
@@ -72,21 +51,16 @@ nav ul a {
     height: auto;
     max-height: 100%;
     border-radius: 15px;
-    z-index: 0;
-}
-
-.hero-text {
-    width: 80%;
 }
 
 .hero-text h1 {
-    font-size: 3.3rem;
+    font-size: 4.6rem;
     margin-bottom: 12px;
     color: #8b4513;
 }
 
 .hero-text p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-bottom: 12px;
 }
 
