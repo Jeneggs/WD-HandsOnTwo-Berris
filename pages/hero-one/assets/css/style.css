@@ -42,6 +42,7 @@ body{
 }
 
 .buttons ul {
+    border: 6px solid rgb(0, 0, 0);
     padding: 0;
 }
 
