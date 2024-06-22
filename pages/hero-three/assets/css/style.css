@@ -79,3 +79,8 @@ ul li a:hover {
   color: #ee6c09;
 }
 
+.info-content {
+  border-left: 2px solid #ee6c09;
+  padding-left: 1rem;
+}
+
