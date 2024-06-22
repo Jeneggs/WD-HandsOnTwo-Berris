@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/EFSF.png" alt="EFSF" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hands on 2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Heros and Cards developed by the Earth Federation Space Force!
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Jeneggs/WD-HandsOnTwo-Berris)
 
 ---
 
@@ -59,24 +59,17 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project is a collection of hero and card designs, with the landing page inspired by the Adam of Gundams, RX-78! The purpose of this project is to expand my creativity in terms of developing engaging hero and card designs. The key components of this project are CSS, and HTML.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +110,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Responsive Hero Section | Guide to create one of my hero sections | https://www.youtube.com/watch?v=5DF7GCI9Nyk |
+|How To Make A Website Header Using HTML And CSS Step By Step|Guide to create one of my hero sections|https://www.youtube.com/watch?v=Oa9LTDR9ugU|
+|How to create a simple hero section with HTML & CSS|Guide to create one of my hero sections|https://www.youtube.com/watch?v=fs923Mu5EXY|
+|How to create a simple, responsive hero section | Guide to create one of my hero sections|https://www.youtube.com/watch?v=6KSKn9xIxUQ|
